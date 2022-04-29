@@ -10,3 +10,14 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}

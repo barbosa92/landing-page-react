@@ -4,21 +4,36 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-export const Home = () => {
+export default function Home() {
 	return (
-		<div className="home">
+		<div className="Home">
 			<Navbar />
 			<div className="container">
 				<Jumbotron />
 				<div className="cards">
-					<Card />
-					<Card />
-					<Card />
+					<Card
+						src="https://picsum.photos/id/1/200/200"
+						title="Ordenador"
+						text="Herramientas de trabajo"
+						href="https://es.wikipedia.org/wiki/Herramienta"
+					/>
+					<Card
+						src="https://picsum.photos/id/0/200/200"
+						title="Working"
+						text="Empezamos la mañana"
+						href="https://miempresaessaludable.com/buenos-habitos-salud/"
+					/>
+					<Card
+						src="https://picsum.photos/id/1029/200/200"
+						title="Office´s landscape"
+						text="Descansando antes de volver al trabajo"
+						href="https://www.anteaprevencion.com/descanso-en-el-trabajo/#:~:text=El%20descanso%20en%20el%20trabajo%20consiste%20en%20una%20pausa%20diaria,fatiga%20producida%20por%20su%20labor."
+					/>
 				</div>
 			</div>
 		</div>
 	);
-};
+}
 
 const Navbar = () => {
 	return (
@@ -121,24 +136,19 @@ const Jumbotron = () => {
 	);
 };
 
-const Card = () => {
+const Card = (props) => {
 	return (
-		<div className="cards">
-			<div className="card" style="width: 18rem;">
-				<img
-					className="card-img-top"
-					src="..."
-					alt="Card image cap"></img>
-				<div className="card-body">
-					<h5 className="card-title">Card title</h5>
-					<p className="card-text">
-						Some quick example text to build on the card title and
-						make up the bulk of the card's content.
-					</p>
-					<a href="#" className="btn btn-primary">
-						Go somewhere
-					</a>
-				</div>
+		<div className="card" style={{ width: "18rem" }}>
+			<img
+				className="card-img-top"
+				src={props.src}
+				alt="Card image cap"></img>
+			<div className="card-body">
+				<h5 className="card-title">{props.title}</h5>
+				<p className="card-text">{props.text}</p>
+				<a href={props.href} className="btn btn-primary">
+					Go somewhere
+				</a>
 			</div>
 		</div>
 	);
