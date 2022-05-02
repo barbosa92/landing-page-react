@@ -10,7 +10,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-
+.jumbotron {
+    background-image: url("https://cdn.pixabay.com/photo/2015/05/12/03/31/sprouts-763457_1280.jpg");
+    background-size: cover;
+    height: 500px;
+    color: aliceblue;
+    font-size: xx-large;
+}
 .container {
     display: flex;
     flex-direction: column;

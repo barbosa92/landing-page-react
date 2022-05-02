@@ -12,20 +12,20 @@ export default function Home() {
 				<Jumbotron />
 				<div className="cards">
 					<Card
-						src="https://picsum.photos/id/1/200/200"
-						title="Ordenador"
+						src="https://cdn.pixabay.com/photo/2016/06/14/19/23/green-1457327_960_720.jpg"
+						title="Microvegetales"
 						text="Herramientas de trabajo"
 						href="https://es.wikipedia.org/wiki/Herramienta"
 					/>
 					<Card
-						src="https://picsum.photos/id/0/200/200"
-						title="Working"
+						src="https://cdn.pixabay.com/photo/2014/07/10/20/55/mushrooms-389421_960_720.jpg"
+						title="Setas Gourmet"
 						text="Empezamos la mañana"
 						href="https://miempresaessaludable.com/buenos-habitos-salud/"
 					/>
 					<Card
-						src="https://picsum.photos/id/1029/200/200"
-						title="Office´s landscape"
+						src="https://cdn.pixabay.com/photo/2017/03/13/12/16/greenhouse-2139526_960_720.jpg"
+						title="Cultivo Hidropónico"
 						text="Descansando antes de volver al trabajo"
 						href="https://www.anteaprevencion.com/descanso-en-el-trabajo/#:~:text=El%20descanso%20en%20el%20trabajo%20consiste%20en%20una%20pausa%20diaria,fatiga%20producida%20por%20su%20labor."
 					/>
@@ -58,7 +58,7 @@ const Navbar = () => {
 				<ul className="navbar-nav mr-auto">
 					<li className="nav-item active">
 						<a className="nav-link" href="#">
-							About <span className="sr-only">(current)</span>
+							Conócenos <span className="sr-only">(current)</span>
 						</a>
 					</li>
 
@@ -71,20 +71,20 @@ const Navbar = () => {
 							data-toggle="dropdown"
 							aria-haspopup="true"
 							aria-expanded="false">
-							Services
+							Servicios
 						</a>
 						<div
 							className="dropdown-menu"
 							aria-labelledby="navbarDropdown">
 							<a className="dropdown-item" href="#">
-								Web Development
+								Microvegetales
 							</a>
 							<a className="dropdown-item" href="#">
-								Cybersecurity
+								Setas Gourmet
 							</a>
 							<div className="dropdown-divider"></div>
 							<a className="dropdown-item" href="#">
-								Big Data
+								Cultivo hidropónico
 							</a>
 						</div>
 					</li>
