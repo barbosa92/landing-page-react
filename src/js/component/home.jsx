@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<div className="Home">
 			<Navbar />
-			<div className="container">
+			<div className="contenedor">
 				<Jumbotron />
 				<div className="cards">
 					<Card
@@ -18,6 +18,7 @@ export default function Home() {
 						href="https://es.wikipedia.org/wiki/Herramienta"
 					/>
 					<Card
+						id="right"
 						src="https://cdn.pixabay.com/photo/2014/07/10/20/55/mushrooms-389421_960_720.jpg"
 						title="Setas Gourmet"
 						text="Empezamos la mañana"
@@ -117,7 +118,7 @@ const Jumbotron = () => {
 
 const Card = (props) => {
 	return (
-		<div className="card" style={{ width: "18rem" }}>
+		<div className="card" id={props.id} style={{ width: "18rem" }}>
 			<img
 				className="card-img-top"
 				src={props.src}

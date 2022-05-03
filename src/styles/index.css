@@ -10,20 +10,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
 .jumbotron {
+    margin-top: 1rem;
     background-image: url("https://cdn.pixabay.com/photo/2015/05/12/03/31/sprouts-763457_1280.jpg");
     background-size: cover;
     height: 500px;
     color: aliceblue;
     font-size: xx-large;
 }
-.container {
+.contenedor {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
+    background-image:url("https://img.freepik.com/foto-gratis/sackcloth-textura-fondo_1339-4578.jpg?w=1380&t=st=1651593830~exp=1651594430~hmac=7d95f9f9be575ab82a11974b146eed357c3fbd572138efe688c2037bcedf3c63")!important
 }
 
 .cards {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin-top: 1rem;
+    width: 100%!important;
     display: flex;
     flex-direction: row;
+}
+
+#right {
+    flex-direction: row-reverse;
+}
+.card-img-top {
+    width: 30rem;
 }
