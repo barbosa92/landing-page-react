@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300&family=Source+Serif+Pro&display=swap');
 /* 
 
     You can write your own styles here...
@@ -10,3 +10,70 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+.Home {
+    font-family: 'Source Serif 4', serif;
+    
+}
+.navbar {
+    background-color: rgb(73, 73, 92)!important;
+    color: azure!important;
+}
+.navbar-brand {
+    font-family: 'Source Serif Pro', serif;
+    font-size: x-large;
+    color: azure!important;
+}
+.nav-link {
+    color: azure!important;
+}
+
+.description {
+    padding-top: 8rem;
+}
+
+.jumbotron {
+    margin-top: 1rem;
+    background-image: url("https://images.pexels.com/photos/8268849/pexels-photo-8268849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: auto;
+    height: 500px;
+    color: aliceblue;
+    font-size: xx-large;
+    border-radius: 3px;
+
+}
+.contenedor {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+
+.cards {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card {
+    margin-top: 1rem;
+    width: 100%!important;
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+}
+
+#right {
+    flex-direction: row-reverse;
+}
+.card-img-top {
+    width: 30rem;
+    height:20rem ;
+    padding: 1rem;
+    border-radius: 20px;
+}
