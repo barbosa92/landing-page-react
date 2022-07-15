@@ -1,7 +1,10 @@
 import React from "react";
+import "@fontsource/hauora-sans"
+
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import brotes from "../../img/pexels-dmitriy-zub-8268849.jpg"
 
 //create your first component
 export default function Home() {
@@ -12,7 +15,9 @@ export default function Home() {
 				<Jumbotron />
 				<div className="cards">
 					<Card
-						src="https://cdn.pixabay.com/photo/2016/06/14/19/23/green-1457327_960_720.jpg"
+
+						src="https://images.unsplash.com/photo-1536630596251-b12ba0d9f7d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+
 						title="Microvegetales"
 						text="Herramientas de trabajo"
 						href="https://es.wikipedia.org/wiki/Herramienta"
@@ -38,7 +43,9 @@ export default function Home() {
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+
+		<nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
+
 			<a className="navbar-brand" href="#">
 				Terra
 			</a>
@@ -96,22 +103,18 @@ const Navbar = () => {
 };
 const Jumbotron = () => {
 	return (
-		<div className="jumbotron">
-			<h1 className="display-4">Hello, world!</h1>
-			<p className="lead">
-				This is a simple hero unit, a simple jumbotron-style component
-				for calling extra attention to featured content or information.
-			</p>
+
+		<div className="jumbotron p-5">
+			<h1 className="display-4">Terra</h1>
+			
 			<hr className="my-4"></hr>
-			<p>
-				It uses utility classNamees for typography and spacing to space
-				content out within the larger container.
+			<p className="description pt-20">
+			Microvegetales de producción local
+
 			</p>
-			<p className="lead">
 				<a className="btn btn-primary btn-lg" href="#" role="button">
-					Learn more
+					Conócenos
 				</a>
-			</p>
 		</div>
 	);
 };
@@ -132,4 +135,6 @@ const Card = (props) => {
 			</div>
 		</div>
 	);
+
 };
+
