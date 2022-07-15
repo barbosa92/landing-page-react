@@ -15,7 +15,9 @@ export default function Home() {
 				<Jumbotron />
 				<div className="cards">
 					<Card
+
 						src="https://images.unsplash.com/photo-1536630596251-b12ba0d9f7d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+
 						title="Microvegetales"
 						text="Herramientas de trabajo"
 						href="https://es.wikipedia.org/wiki/Herramienta"
@@ -41,7 +43,9 @@ export default function Home() {
 
 const Navbar = () => {
 	return (
+
 		<nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
+
 			<a className="navbar-brand" href="#">
 				Terra
 			</a>
@@ -99,12 +103,14 @@ const Navbar = () => {
 };
 const Jumbotron = () => {
 	return (
+
 		<div className="jumbotron p-5">
 			<h1 className="display-4">Terra</h1>
 			
 			<hr className="my-4"></hr>
 			<p className="description pt-20">
 			Microvegetales de producción local
+
 			</p>
 				<a className="btn btn-primary btn-lg" href="#" role="button">
 					Conócenos
@@ -129,4 +135,6 @@ const Card = (props) => {
 			</div>
 		</div>
 	);
+
 };
+
