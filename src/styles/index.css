@@ -24,9 +24,18 @@
     font-family: 'Source Serif Pro', serif;
     font-size: x-large;
     color: azure!important;
+    padding-left: 1rem;
 }
 .nav-link {
     color: azure!important;
+}
+
+#navbarNavDropdown {
+    padding-right: 2rem;
+}
+
+.name {
+    font-size: 200%;
 }
 
 .description {
@@ -35,12 +44,19 @@
 
 .jumbotron {
     margin-top: 1rem;
-    background-image: url("https://images.pexels.com/photos/8268849/pexels-photo-8268849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-size: auto;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+     ),  
+     url('https://images.pexels.com/photos/8268849/pexels-photo-8268849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    /* background-image: url("https://images.pexels.com/photos/8268849/pexels-photo-8268849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-size: cover;
     height: 500px;
     color: aliceblue;
-    font-size: xx-large;
+    font-size: 250%;
     border-radius: 3px;
+    
 
 }
 .contenedor {
