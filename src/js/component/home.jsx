@@ -18,8 +18,11 @@ export default function Home() {
 				<Jumbotron />
 				<div className="cards">
 					<Card
+
 						id= "microvegetales"
+
 						src="https://images.unsplash.com/photo-1536630596251-b12ba0d9f7d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+
 						title="Microvegetales"
 						text="Las microverduras son plántulas jóvenes de vegetales y hierbas comestibles. A diferencia de las hierbas y vegetales más grandes que tardan semanas o meses en crecer, los microvegetales se pueden cosechar y a partir de la primera semana después de que se hayan desarrollado las hojas del cotiledón."
 						href="https://www.hortalizas.com/cultivos/coles-de-hojas/el-cultivo-de-microverduras/"
@@ -50,6 +53,7 @@ const Navbar = () => {
 		return (alert("Página en construcción"))
 	}
 	return (
+
 			<nav className="navbar navbar-expand-lg bg-light">
 				<div className="container-fluid">
 					<a className="navbar-brand" href="#">Terra</a>
@@ -64,6 +68,7 @@ const Navbar = () => {
 						</li>
 						<li className="btn-group dropstart">
 						<a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
 							Servicios
 						</a>
 						<ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -83,12 +88,14 @@ const Jumbotron = () => {
 		return (alert("Página en construcción"))
 	}
 	return (
+
 		<div className="jumbotron p-5">
 			<h1 className="name display-4">Terra</h1>
 			
 			<hr className="my-4"></hr>
 			<p className="description pt-20">
 			Microvegetales de producción local
+
 			</p>
 				<a className="btn btn-primary btn-lg" href="#" role="button" onClick={aviso}>
 					Conócenos
@@ -113,6 +120,7 @@ const Card = (props) => {
 			</div>
 		</div>
 	);
+
 };
 
 const Footer = () => {
@@ -124,3 +132,4 @@ const Footer = () => {
 		</footer>
 	)
 }
+

@@ -12,6 +12,7 @@
 */
 
 
+
 .Home {
     font-family: 'Source Serif 4', serif;
     
@@ -58,6 +59,7 @@
     border-radius: 3px;
     
 
+
 }
 .contenedor {
     margin-left: 0;
@@ -66,7 +68,9 @@
     padding-right: 5rem;
     display: flex;
     flex-direction: column;
+
     background-color: azure;
+
 }
 
 .cards {
@@ -81,7 +85,9 @@
     width: 100%!important;
     display: flex;
     flex-direction: row;
+
     height: 20rem;
+
 }
 
 #right {
@@ -89,7 +95,9 @@
 }
 .card-img-top {
     width: 30rem;
+
     height:20rem ;
     padding: 1rem;
     border-radius: 20px;
 }
+
